@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<style-scheme id="linuxvt" _name="Linux VT" version="1.0">
+  <author>Vlasta Vesely</author>
+  <_description>Color scheme using Linux Virtual Terminal palette</_description>
+
+  <color name="fg"                          value="#6af3a0"/>
+  <color name="fg_dark"                     value="#2e6945"/>
+  <color name="bg"                          value="#001207"/>
+  <color name="bg_light"                    value="#001f0c"/>
+
+  <!-- Linux Palette -->
+  <color name="red"                         value="#aa0000"/>
+  <color name="green"                       value="#00aa00"/>
+  <color name="brown"                       value="#aa5500"/>
+  <color name="blue"                        value="#0000aa"/>
+  <color name="purple"                      value="#aa00aa"/>
+  <color name="teal"                        value="#00aaaa"/>
+  <color name="silver"                      value="#aaaaaa"/>
+  <color name="gray"                        value="#555555"/>
+  <color name="lightred"                    value="#ff5555"/>
+  <color name="lightgreen"                  value="#55ff55"/>
+  <color name="yellow"                      value="#ffff55"/>
+  <color name="lightblue"                   value="#5555ff"/>
+  <color name="magenta"                     value="#ff55ff"/>
+  <color name="cyan"                        value="#55ffff"/>
+  <color name="white"                       value="#ffffff"/>
+
+  <!-- Global Settings -->
+  <style name="text"                        foreground="fg" background="bg"/>
+  <style name="selection"                   foreground="bg" background="fg"/>
+  <style name="cursor"                      foreground="fg"/>
+  <style name="current-line"                background="bg_light"/>
+  <style name="line-numbers"                foreground="fg_dark" background="bg_light"/>
+
+  <!-- Bracket Matching -->
+  <style name="bracket-match"               foreground="green" background="#003816"/>
+  <style name="bracket-mismatch"            foreground="red" background="#003816"/>
+
+  <!-- Search Matching -->
+  <style name="search-match"                foreground="bg" background="yellow"/>
+
+  <!-- Comments -->
+  <style name="def:comment"                 foreground="blue"/>
+  <style name="def:shebang"                 foreground="blue" bold="true"/>
+  <style name="def:doc-comment-element"     foreground="blue" bold="true"/>
+
+  <!-- Constants -->
+  <style name="def:constant"                foreground="red"/>
+
+  <!-- Strings -->
+  <style name="def:string"                  foreground="red"/>
+  <style name="def:special-char"            foreground="purple"/>
+
+  <!-- Identifiers -->
+  <style name="def:identifier"              foreground="teal"/>
+
+  <!-- Statements -->
+  <style name="def:statement"               foreground="brown" bold="true"/>
+
+  <!-- Types -->
+  <style name="def:type"                    foreground="green"/>
+
+  <!-- Operators -->
+  <style name="def:operator"                foreground="green"/>
+
+  <!-- Others -->
+  <style name="def:preprocessor"            foreground="purple"/>
+  <style name="def:error"                   foreground="white" background="red" bold="true"/>
+  <style name="def:note"                    foreground="bg" background="yellow" bold="true"/>
+  <style name="def:underlined"              underline="single"/>
+
+  <!-- Diff Styles -->
+  <style name="diff:ignore"                 foreground="gray"/>
+  <style name="diff:added-line"             foreground="green"/>
+  <style name="diff:removed-line"           foreground="red"/>
+  <style name="diff:diff-file"              foreground="blue" bold="true"/>
+  <style name="diff:location"               foreground="purple"/>
+
+  <!-- JSON Styles -->
+  <style name="json:keyname"                foreground="green"/>
+
+</style-scheme>
