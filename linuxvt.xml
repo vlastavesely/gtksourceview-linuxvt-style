@@ -80,4 +80,7 @@
   <!-- JSON Styles -->
   <style name="json:keyname"                foreground="green"/>
 
+  <!-- Makefile Styles -->
+  <style name="makefile:assignment-lhs"     foreground="green"/>
+
 </style-scheme>
