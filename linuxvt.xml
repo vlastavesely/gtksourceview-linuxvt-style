@@ -32,6 +32,7 @@
   <style name="cursor"                      foreground="fg"/>
   <style name="current-line"                background="bg_light"/>
   <style name="line-numbers"                foreground="fg_dark" background="bg_light"/>
+  <style name="draw-spaces"                 foreground="#002c11"/>
 
   <!-- Bracket Matching -->
   <style name="bracket-match"               foreground="green" background="#003816"/>
