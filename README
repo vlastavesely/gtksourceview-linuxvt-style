@@ -1,10 +1,21 @@
 GtkSourceView Linux VT Style
 ============================
-This is a style scheme for GtkSourceView 3.0 using the colors of Linux Virtual
-Terminal as defined in the source code of the Linux kernel. 
+This is a style scheme for GtkSourceView 3.0 using the default colours of the
+Linux Virtual Terminal as defined in the source code of the Linux kernel. For
+the actual definition see the following link:
 
-  https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/drivers/tty/vt/vt.c?h=v5.4#n1376
+https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/\
+	tree/drivers/tty/vt/vt.c?h=v5.4#n1376
+
 
 Licensing Notice
 ----------------
-This software is released under the GPL-2 License.
+This software is released under the terms of the GPL license version 2 as
+published by the Free Software Foundation. You can freely redistribute and/or
+modify the software under the terms of the license.
+
+This program is distributed in the hope that it will be useful, but WITHOUT
+ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+
+For more information on details of the license, see the file COPYING.
